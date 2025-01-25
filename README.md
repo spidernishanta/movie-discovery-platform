@@ -1,4 +1,4 @@
-![Search](https://github.com/user-attachments/assets/ab4baca7-03dc-470d-b8fc-ddce5909b6c7)# Movie Discovery Platform
+# Movie Discovery Platform
 
 A React-based web application for discovering movies, exploring genres, and finding trending titles. This project leverages The Movie Database (TMDB) API to provide up-to-date movie information.
 
