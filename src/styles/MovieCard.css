@@ -1,0 +1,50 @@
+.movie-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .movie-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .movie-card img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .movie-card h3 {
+    margin: 12px 0 8px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .movie-card p {
+    margin: 0;
+    font-size: 16px;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  .movie-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .movie-card p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; /* Adjust this to control vertical alignment */
+    width: 100%; /* Ensures full width for text alignment */
+  }
+  
