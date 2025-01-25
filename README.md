@@ -8,7 +8,7 @@ A React-based web application for discovering movies, exploring genres, and find
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/movie-discovery-platform.git
+   git clone [https://github.com/your-username/movie-discovery-platform.git](https://github.com/spidernishanta/movie-discovery-platform)
    cd movie-discovery-platform
 
     Install dependencies:
