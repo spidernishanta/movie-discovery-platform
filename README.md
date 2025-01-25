@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Movie Discovery Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based web application for discovering movies, exploring genres, and finding trending titles. This project leverages The Movie Database (TMDB) API to provide up-to-date movie information.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🛠 Project Setup Instructions
 
-### npm start
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/movie-discovery-platform.git
+   cd movie-discovery-platform
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    Install dependencies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+npm install
 
-### npm test
+Create a .env file in the root directory and add your TMDB API key:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+REACT_APP_TMDB_API_KEY=your_api_key_here
 
-### npm run build
+Start the development server:
 
-Builds the app for production to the build folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Build the project for production:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    npm run build
 
-### npm run eject
+🌟 Features Implemented
 
-**Note: this is a one-way operation. Once you eject, you can't go back!**
+    Search Movies:
+        Dynamic search results with debouncing.
+        Filter movies by year, rating, and genre.
+        Displays loading states while fetching data.
 
-If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
+    Trending Movies Section:
+        Showcases the most popular movies based on real-time TMDB data.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    Genre Exploration:
+        Browse movies by selecting from a variety of genres.
 
-You don't have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    Responsive Design:
+        Fully optimized for mobile and desktop devices.
 
-## Learn More
+    Dark/Light Mode Toggle:
+        Theme switching for better accessibility and user preference.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🛠 Technologies Used
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    Frontend: React.js
+    Styling: CSS3
+    API Integration: The Movie Database (TMDB) API
+    Deployment: Netlify
+    Build Tools: Create React App
 
-### Code Splitting
+📸 Screenshots
+Home Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Search Page
 
-### Analyzing the Bundle Size
+Trending Movies Section
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🚀 Deployment
 
-### Making a Progressive Web App
+This project is deployed on Netlify. Visit the live demo here.
+💡 Learn More
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    React Documentation
+    TMDB API Documentation
+    Netlify Deployment Guide
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Notes:
+1. Replace `your-username` in the clone URL with your GitHub username.
+2. Add the actual screenshots or replace the placeholder image URLs with your screenshot links.
+3. Update the live demo link under "Deployment" if the project is already live.
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### npm run build fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Let me know if you need further edits or additional help!
