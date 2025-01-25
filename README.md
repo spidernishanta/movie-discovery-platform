@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+Movie Discovery Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Movie Discovery Platform! This React application allows users to search, filter, and explore movies dynamically using the TMDB API.
 
-## Available Scripts
+Project Setup Instructions
 
-In the project directory, you can run:
+To get started with the project, follow these steps:
 
-### `npm start`
+Clone the Repository:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+git clone https://github.com/your-repo/movie-discovery-platform.git
+cd movie-discovery-platform
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Install Dependencies:
 
-### `npm test`
+npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Set Up Environment Variables:
 
-### `npm run build`
+Create a .env file in the root directory.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Add your TMDB API key as follows:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+REACT_APP_TMDB_API_KEY=your_api_key_here
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Run the Application:
 
-### `npm run eject`
+npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Open http://localhost:3000 in your browser to view the app.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Build for Production:
+To create an optimized production build, run:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm run build
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Features Implemented
 
-## Learn More
+Dynamic Search:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Search movies by title with a debounce feature to optimize API calls.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Filters:
 
-### Code Splitting
+Filter movies by year, rating, and genre.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Responsive Design:
 
-### Analyzing the Bundle Size
+Fully responsive layout for a seamless experience across devices.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Loading States:
 
-### Making a Progressive Web App
+Visual feedback while data is being fetched.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Error Handling:
 
-### Advanced Configuration
+Graceful handling of API errors and empty search results.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Technologies Used
 
-### Deployment
+Frontend:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+React.js
 
-### `npm run build` fails to minify
+React Hooks (useState, useEffect, useCallback)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Styling:
+
+CSS Modules
+
+API Integration:
+
+TMDB API
+
+Deployment:
+
+Netlify
+
+Screenshots
+
+Home Page
+
+
+
+Search Results
+
+
+
+Filters
