@@ -1,4 +1,4 @@
-# Movie Discovery Platform
+![Search](https://github.com/user-attachments/assets/ab4baca7-03dc-470d-b8fc-ddce5909b6c7)# Movie Discovery Platform
 
 A React-based web application for discovering movies, exploring genres, and finding trending titles. This project leverages The Movie Database (TMDB) API to provide up-to-date movie information.
 
@@ -8,7 +8,7 @@ A React-based web application for discovering movies, exploring genres, and find
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/movie-discovery-platform.git](https://github.com/spidernishanta/movie-discovery-platform)
+   git clone https://github.com/spidernishanta/movie-discovery-platform
    cd movie-discovery-platform
 
     Install dependencies:
@@ -17,7 +17,7 @@ npm install
 
 Create a .env file in the root directory and add your TMDB API key:
 
-REACT_APP_TMDB_API_KEY=your_api_key_here
+REACT_APP_TMDB_API_KEY='54676acd2cdd1e5d193a04aebed69e47'
 
 Start the development server:
 
@@ -43,9 +43,6 @@ Build the project for production:
     Responsive Design:
         Fully optimized for mobile and desktop devices.
 
-    Dark/Light Mode Toggle:
-        Theme switching for better accessibility and user preference.
-
 🛠 Technologies Used
 
     Frontend: React.js
@@ -56,24 +53,15 @@ Build the project for production:
 
 📸 Screenshots
 Home Page
+![Home](https://github.com/user-attachments/assets/8c97d260-5751-4fc6-939c-24bcbd643128)
 
 Search Page
+![Search](https://github.com/user-attachments/assets/a56a488b-e87e-4435-b124-9066c52292a0)
 
-Trending Movies Section
+Favorites Movies Section
+![Favorites](https://github.com/user-attachments/assets/07ec3760-6e90-4cbd-94c0-9edccfabe9ec)
 
 🚀 Deployment
 
 This project is deployed on Netlify. Visit the live demo here.
-💡 Learn More
-
-    React Documentation
-    TMDB API Documentation
-    Netlify Deployment Guide
-
-
-### Notes:
-1. Replace `your-username` in the clone URL with your GitHub username.
-2. Add the actual screenshots or replace the placeholder image URLs with your screenshot links.
-3. Update the live demo link under "Deployment" if the project is already live.
-
-Let me know if you need further edits or additional help!
+💡 https://movie-discovery-platform.netlify.app/
