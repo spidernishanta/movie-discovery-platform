@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import { fetchMovies, fetchGenres } from '../services/api';
 import MovieCard from '../components/MovieCard';
+import { Link } from 'react-router-dom';
 import '../styles/Home.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -80,11 +81,13 @@ const Home = () => {
         <Slider {...sliderSettings}>
           {featuredMovies.map((movie) => (
             <div key={movie.id}>
+              <Link to={`/movie/${movie.id}`} className="movie-link">
               <img
                 src={`https://image.tmdb.org/t/p/original${movie.backdrop_path}`}
                 alt={movie.title}
                 className="featured-image"
               />
+              </Link>
               <h3 className="featured-title">{movie.title}</h3>
             </div>
           ))}
